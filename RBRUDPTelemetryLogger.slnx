@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="RBRUDPTelemetryLogger.vcxproj" Id="ccf6de1f-278f-4761-8880-e4cd6488fdd4" />
+</Solution>
