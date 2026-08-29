@@ -5,6 +5,7 @@ UDP telemetry debug logger app for _Richard Burns Rally_ game and NGP UDP teleme
 You can use this application to verify RBR/NGP is sending out telemetry messages. 
 
 # Configuration and Usage
+- Download the latest RBRUDPTelemetryLogger.zip package from https://github.com/mika-n/RBRUDPTelemetryLogger/releases page and unzip it to any folder.
 - At the moment the application listens UDP messages in a pre-fixed 6776 udp port number. You can change this in _RBRUDPTelemetryLogger.cpp_ and _UDP_LISTENER_PORT_ option. Make sure no other apps are using this UDP port number.
 - Enable _NGP plugin_ and _UDP Telemetry feature_ in Richard Burns Rally. In www.rallysimfans.hu RBR mod version you can do this by using _RSFLauncher.Telemetry_ and _RSFLauncher.Plugins_ options (set the UDP telemetry IP number as 127.0.0.1 and port number as 6776).
 - Close other apps listening the 6776 udp port (for example SimHub) while running this UDP logger application.
